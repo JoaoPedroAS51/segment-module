@@ -1,0 +1,45 @@
+{
+  "name": "@nuxtjs/segment-analytics",
+  "version": "0.0.0",
+  "description": "Segment Analytics module for Nuxt.js",
+  "license": "MIT",
+  "contributors": [
+    {
+      "name": "João Pedro Antunes Silva <joao-pedroas@hotmail.com>",
+      "url": "https://github.com/JoaoPedroAS51"
+    }
+  ],
+  "main": "lib/module.js",
+  "repository": "nuxt-community/segment-module",
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "dev": "nuxt example",
+    "lint": "eslint --ext .js,.vue example lib test",
+    "test": "yarn lint && jest",
+    "release": "yarn test && standard-version && git push --follow-tags && npm publish"
+  },
+  "files": [
+    "lib"
+  ],
+  "dependencies": {},
+  "devDependencies": {
+    "@babel/core": "latest",
+    "@babel/preset-env": "latest",
+    "@commitlint/cli": "latest",
+    "@commitlint/config-conventional": "latest",
+    "@nuxtjs/eslint-config": "latest",
+    "babel-eslint": "latest",
+    "babel-jest": "latest",
+    "codecov": "latest",
+    "eslint": "latest",
+    "get-port": "latest",
+    "husky": "latest",
+    "jest": "latest",
+    "nuxt-edge": "latest",
+    "request": "latest",
+    "request-promise-native": "latest",
+    "standard-version": "latest"
+  }
+}
