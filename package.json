@@ -9,7 +9,7 @@
       "url": "https://github.com/JoaoPedroAS51"
     }
   ],
-  "main": "lib/module.js",
+  "main": "lib/module/index.js",
   "repository": "nuxt-community/segment-module",
   "publishConfig": {
     "access": "public"

@@ -7,9 +7,7 @@ module.exports = {
   render: {
     resourceHints: false
   },
-  modules: [
-    { handler: require('../') }
-  ],
+  modules: ['@@'],
   segmentAnalytics: {
     clientKey: 'FtemCAFovZ2U4NJEP0TIFAztzNoA7TTX',
     serverKey: 'TJxJenYvRgMXARtnVVsfSNkHiTjXWrkN'
