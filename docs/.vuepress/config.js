@@ -16,7 +16,9 @@ module.exports = {
             '/',
             '/guide/setup',
             '/guide/client',
-            '/guide/server'
+            '/guide/server',
+            '/guide/auto-page-tracking',
+            '/guide/debug'
           ]
         }
       ],
