@@ -8,7 +8,7 @@ module.exports = {
     node: true,
     jest: true
   },
-  extends: 'standard',
+  extends: ['standard', 'plugin:vue/recommended'],
   plugins: ['jest', 'vue'],
   rules: {
     // Allow paren-less arrow functions
