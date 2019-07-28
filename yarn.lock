@@ -1771,6 +1771,11 @@ ansi-styles@^4.0.0:
   dependencies:
     color-convert "^2.0.0"
 
+ansicolor@^1.1.92:
+  version "1.1.92"
+  resolved "https://registry.yarnpkg.com/ansicolor/-/ansicolor-1.1.92.tgz#98fc1f17dcaba2bcf50a3aebd9bf1d36073dea9c"
+  integrity sha512-2jRpULfLpLvFeYYxIu1z6i0LQ4Khj/UxecsrdJ+837P0AVOW3smdKHpHmeKVYHZPG67o3jQFdMjNvPwktwPmZg==
+
 anymatch@^2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/anymatch/-/anymatch-2.0.0.tgz#bcb24b4f37934d9aa7ac17b4adaf89e7c76ef2eb"
@@ -2747,11 +2752,6 @@ color@^3.0.0:
   dependencies:
     color-convert "^1.9.1"
     color-string "^1.5.2"
-
-colors@^1.3.3:
-  version "1.3.3"
-  resolved "https://registry.yarnpkg.com/colors/-/colors-1.3.3.tgz#39e005d546afe01e01f9c4ca8fa50f686a01205d"
-  integrity sha512-mmGt/1pZqYRjMxB1axhTo16/snVZ5krrKkcmMeVKxzECMMXoCgnvTPp10QgHfcbQZw8Dq2jMNG6je4JlWU0gWg==
 
 combined-stream@^1.0.6, combined-stream@~1.0.6:
   version "1.0.8"
